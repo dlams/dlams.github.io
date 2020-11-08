@@ -11,7 +11,7 @@ animateCircle = function() {
     setTimeout(function() {
 
       ctx.clearRect(0, 0, 100, 100);
-      ctx.lineWidth = 7;
+      ctx.lineWidth = 10;
       ctx.lineCap = 'round'
       ctx.strokeStyle = "#E1E1E1";
       ctx.beginPath();
