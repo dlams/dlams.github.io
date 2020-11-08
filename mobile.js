@@ -4,7 +4,7 @@ function isMobile() {
 
 if (isMobile()) {
     alert('모바일');
-
+    document.getElementById("mycss").href = "timer2.css";
 
 } else {
     alert('PC');
