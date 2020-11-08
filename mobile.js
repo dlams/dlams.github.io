@@ -4,10 +4,10 @@ function isMobile() {
 
 if (isMobile()) {
     alert('모바일');
-    document.getElementById("stylesheet").href = “timer.css”;
+    document.getElementById("mycss").href = "timer2.css";
 
 } else {
     alert('PC');
-    document.getElementById("stylesheet").href = “timer2.css”;
+    document.getElementById("mycss").href = "timer.css";
 
 }
